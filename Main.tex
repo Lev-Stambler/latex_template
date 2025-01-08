@@ -1,6 +1,5 @@
 \documentclass[11pt]{article}
 \usepackage{CSTheoryToolkitCMUStyle}
-\usepackage{Custom}
 \usepackage{cleveref}
 % \usepackage{biblatex}
 % \addbibresource{CSTheoryToolkitCMUStyle.bib}
@@ -9,19 +8,6 @@
 
 %%%%% Stuff you can change %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\myname}{Lev Stambler}
-
-%%%%% Section-renaming code by egreg
-\makeatletter
-% we use \prefix@<level> only if it is defined
-\renewcommand{\@seccntformat}[1]{%
-  \ifcsname prefix@#1\endcsname
-    \csname prefix@#1\endcsname
-  \else
-    \csname the#1\endcsname\quad
-  \fi}
-% Now we define our homework section prefixes
-\makeatother
-%%%%%
 
 \begin{document}
 
